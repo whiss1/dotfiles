@@ -112,6 +112,4 @@ endfunction
 inoremap <Tab><c-r>=InsertTabWrapper()<cr>
 inoremap <S-Tab> <c-n>
 
-command! Status echo "All systems are go, second go!"
-
-
+colors jellybeans
