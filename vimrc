@@ -1,5 +1,9 @@
+execute pathogen#infect()
+
 " Leader
 let mapleader = " "
+
+syntax on
 
 set backspace=2   " Backspace deletes like most programs in insert mode
 set nobackup
@@ -11,6 +15,10 @@ set showcmd       " display incomplete commands
 set incsearch     " do incremental searching
 set laststatus=2  " Always display the status line
 set autowrite     " Automatically :write before running commands
+
+if has("autocmd")
+  filetype plugin indent on
+endif
 
 " Switch syntax highlighting on, when the terminal has colors
 " Also switch on highlighting the last used search pattern.
@@ -104,4 +112,6 @@ endfunction
 inoremap <Tab><c-r>=InsertTabWrapper()<cr>
 inoremap <S-Tab> <c-n>
 
-command! Status echo "All systems are go!"
+command! Status echo "All systems are go, second go!"
+
+
