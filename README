@@ -17,7 +17,7 @@ Git commands
 
     git submodule add "url of folder in Github" ~/.vim/bundle/"plugin name"
 
-  Functions to apply after copying from Github:
+  Functions to apply after making changes to files to upload to Github:
 
     git add .
     git commit -m "text explaining changes made"
