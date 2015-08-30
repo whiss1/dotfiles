@@ -7,3 +7,27 @@ Create symlinks:
   ln -s ~/dotfiles/vimrc ~/.vimrc
   ln -s ~/dotfiles/gvimrc ~/.gvimrc
 
+Git commands
+
+  Copying files from Github:
+
+    git clone "url of file you want" "position in directory"
+
+  Copying submodules from Github (plugins):
+
+    git submodule add "url of folder in Github" ~/.vim/bundle/"plugin name"
+
+  Functions to apply after copying from Github:
+
+    git add .
+    git commit -m "text explaining changes made"
+    git push
+
+  Updating setting on another machine from Github:
+
+    git pull
+
+  Updating submodules (plugins) on another machine:
+
+    git submodule update --init
+
