@@ -114,3 +114,6 @@ inoremap <Tab><c-r>=InsertTabWrapper()<cr>
 inoremap <S-Tab> <c-n>
 
 colors jellybeans
+
+autocmd VimEnter * NERDTree
+
