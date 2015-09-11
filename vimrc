@@ -115,5 +115,4 @@ inoremap <S-Tab> <c-n>
 
 colors jellybeans
 
-map <silent> <C-n> :NERDTreeFocus<CR>
 :map jk <Esc>
