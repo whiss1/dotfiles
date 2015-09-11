@@ -115,5 +115,5 @@ inoremap <S-Tab> <c-n>
 
 colors jellybeans
 
-autocmd VimEnter * NERDTree
-
+map <silent> <C-n> :NERDTreeFocus<CR>
+:map jk <Esc>
