@@ -115,4 +115,5 @@ inoremap <S-Tab> <c-n>
 
 colors jellybeans
 
-:map jk <Esc>
+:imap jk <Esc>
+
