@@ -32,3 +32,9 @@ Git commands
 
     git submodule update --init
 
+
+Running Python from terminal:
+
+  - Navigate to position of file
+  - Type "python3" to load IDE
+  - exec(open("filename.py").read()) to load file into IDE
